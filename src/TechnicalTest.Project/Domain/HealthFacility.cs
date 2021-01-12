@@ -2,10 +2,8 @@ using System.Collections.Generic;
 
 namespace TechnicalTest.Project.Domain
 {
-    public class HealthFacility
+    public class HealthFacility : BaseEntity
     {
-        public string Id { get; set; }
-        
         public string Name { get; set; }
         
         public string? PhoneNumber { get; set; }

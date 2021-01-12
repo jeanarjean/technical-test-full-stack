@@ -2,10 +2,8 @@ using System.Collections.Generic;
 
 namespace TechnicalTest.Project.Domain
 {
-    public class Practitioner
+    public class Practitioner : BaseEntity
     {
-        public string Id { get; set; }
-        
         public string FirstName { get; set; }
         
         public string LastName { get; set; }
